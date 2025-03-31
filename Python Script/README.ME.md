@@ -57,6 +57,12 @@ In the script, you can modify:
 
 Run this script on any environment that supports Python:
 
+### Cloud Options
+- Google Cloud Functions + Scheduler
+- GitHub Actions (with secrets for credentials)
+- Docker (for containerized deployments)
+----
+
 ### Linux / macOS
 Schedule using `cron`:
 ```bash
@@ -68,12 +74,6 @@ crontab -e
 
 ### Windows Server
 Use Task Scheduler to schedule a daily Python run.
-
-### Cloud Options (optional)
-- Google Cloud Functions + Scheduler
-- GitHub Actions (with secrets for credentials)
-- Docker (for containerized deployments)
-
 ---
 
 ## Daily Sync Behavior
